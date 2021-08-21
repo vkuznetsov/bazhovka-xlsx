@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [dk.ative/docjure "1.14.0"]
                  [com.draines/postal "2.0.4"]
-                 [clj-pdf "2.5.7"]]
+                 [clj-pdf "2.5.7"] 
+                 [com.draines/postal "2.0.4"]]
   :main bazhovka-xlsx.core
-  :aot [bazhovka-xlsx.core]  
+  :aot [bazhovka-xlsx.core]
   :repl-options {:init-ns bazhovka-xlsx.core})

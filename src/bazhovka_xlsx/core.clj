@@ -4,8 +4,7 @@
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot."
-  [& _args]
+  "I don't do a whole lot." [& _args]
   (println "Hello, World!"))
 
 (defn create-new-payments [wb monthnum payment-type members]
